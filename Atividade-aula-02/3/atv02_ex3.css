@@ -1,0 +1,30 @@
+body{
+    background-color: lightgrey;
+}
+.box {
+    background-color: white;
+    height: 500px;
+    width: 50vw;
+    border: 10px dotted black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.box .box2 {
+    background-color: yellow;
+    height: 50px;
+    width: 30%;
+}
+.box .box3 {
+    background-color: rgb(165, 107, 0);
+    height: 100px;
+    width: 30%;
+}
+.box .box4 {
+    background-color: rgb(0, 172, 0);
+    color: white;
+    font-size: 30px;
+    padding: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
